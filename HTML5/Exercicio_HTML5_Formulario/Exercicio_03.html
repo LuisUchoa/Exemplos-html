@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercicio_03</title>
+        <meta charset="utf-8">
+    </head>
+
+<center>
+
+    <h1><b>Escola Virtual</b></h1><br><br>
+    <h2><b>Formulário de Pré-Matrícula</b></h2>
+    <hr width="100%" size="10" color="gray">
+
+</center>
+
+<body>
+    <form>
+    <center>
+    
+    <table border="1">
+    <tr>
+    <td>Dados Pessoais:
+
+            <table border="0">
+     
+            <tr>
+                <td><label>Nome:<input type="text" name="nome" size="30" max="40"></label></td>
+            </tr>
+
+            <tr>
+                <td><label>Data de Nascimento:<input type="date" name="data"></label></td>
+            </tr>
+
+            <tr>
+                 <td><label>Nome da Mãe:<input type="text" name="mãe" size="20" max="40"></label></td>
+            </tr>
+
+            <tr>
+                 <td><label>Nome do Pai:<input type="text" name="pai" size="20" max="40"></label></td>
+            </tr>
+            
+            <tr>
+                <td><label>Telefone: DDD<input type="text" name="DDD" max="3" size="2" placeholder="(xx)" pattern="\([0-9]{2}\)"></label>
+                 <label>Tel:<input type="text" max="9"size="10" placeholder="xxxx-xxxx" pattern="\[\s][0-9]{4}-[0-9]{4}"></label>
+                 <label>Ramal: <input type="text" max="5" size="4"></label></td>
+            </tr>
+
+            <tr>
+                <td>Email:<input type="email" name="endemail" placeholder="Digite seu E-mail" required></td>
+            </tr>
+       </td>
+    </tr>
+
+</center>
+
+</table>
+
+ </table>
+
+   <tbody>
+    <table border="1">
+    <td>Informações da Matrícula:
+    <table border="0">
+        <tr>
+               
+            <td>
+                    <label>Série:
+                            <select name="serie">
+                                <option value="Pré-escola">Pré-escola</option>
+                                <option value="serie1">1° Série</option>
+                                <option value="serie2">2° Série</option>
+                                <option value="serie3">3° Série</option>
+                                <option value="serie4">4° Série</option>
+                                <option value="serie4">5° Série</option>
+                                <option value="serie4">6° Série</option>
+                                <option value="serie4">7° Série</option>
+                                <option value="serie4">8° Série</option>
+                                <option value="serie4">1° Grau</option>
+                                <option value="serie4">2° Grau</option>
+                                <option value="serie4">3° Grau</option>
+                            </select>
+                        </label>
+            </td>
+            <td>Turno:</td>
+            <td>Atividades Extracurriculares:</td>
+            <tr>
+            <td></td>
+            <td><input type="radio" name="periodo" value="manha">Manhã<br>
+                <input type="radio" name="periodo" value="tarde">Tarde<br></td>
+
+                <td> <input type="CheckBox" name="Informática" value="Informática">Informática<br>
+                    <input type="CheckBox" name="Música" value="Música">Música<br>
+                    <input type="CheckBox" name="Ballet" value="Ballet">Ballet <br>
+                    <input type="CheckBox" name="Pintura" value="Pintura">Pintura<br>
+                    <input type="CheckBox" name="Judô" value="Judô">Judô<br>
+                    <input type="CheckBox" name="Futebol" value="Futebol">Futebol <br></td>
+                </tr>
+               
+                        
+                           
+                   
+        </tr>
+        
+
+        
+    
+
+    </table>
+</table>                           
+</form>             
+      
+      <input type="submit" name="Enviar" value="Enviar">
+      <input type="reset" name="Apagar" value="Apagar">
+</body>
+</html>
