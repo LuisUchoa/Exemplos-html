@@ -24,10 +24,54 @@ Use a propriedade background-image pra isso. Borda sutil nos subtítulos, para a
 
 h1{
     background-image: url(../img/sobre-background.jpg);
-    padding: 10;
+    padding: 10 px;
+}
+
+h2{
+    border-bottom: 2px solid #333333;
+    margin-top: 30px;
 }
 
 p{
     padding: 0 45px;
     text-indent: 15px;
-}/* parei aqui*/
+}
+
+/*Acerte também a renderização das figuras. Fundo cinza, borda sutil, legenda em itálico com font-style 
+e alinhe a imagem e a legenda no centro.*/
+
+figure{
+    background-color:#F2EDED;
+    border: 1px solid #ccc; /*Algumas possibilidades: dashed, dotted, double*/
+    text-align: center; /*text-align tambem pode ser left, right e justify*/
+    padding: 15px;
+    margin: 30px;
+}
+
+#centro-distribuicao{
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+figcaption{
+    font-style: italic;
+    margin-top: 10px;
+}
+
+#rodape{
+    color: #777;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+
+#rodape img{
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+}
+
+#familia-pelho{
+    float: right;
+    margin: 0 0 10px 10px;
+}
