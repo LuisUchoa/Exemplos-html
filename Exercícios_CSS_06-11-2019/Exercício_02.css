@@ -48,7 +48,13 @@ footer{
       color: white;
 }
 
-.negrito{
+.titulo{
       font-size: 2;
       font-weight: bold;
 }
+li{
+    text-align: left;
+}
+#teste{position:relative;top:0}
+#teste:hover{top:-4px;box-shadow:0 4px 4px #999;
+   transition: all .2s ease-in-out}
